@@ -4,6 +4,7 @@
 }
 
 .container {
+    display: flex;
     width: 500px;
     max-width: 650px;
     max-height: 500px;
@@ -26,26 +27,25 @@ box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
 }
 
 #field__title{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     color:rgb(34, 34, 34);
     margin-bottom: 5%;
 }
 
 #field__title {
-    display: flex;
     justify-content: center;
 }
 
 .fields__textbox{
     height: 100px;
-
     display:flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .fields__textbox > input {
+    padding: 5px;
     height: 40px;
     border: 1px solid rgb(131, 131, 131);
     border-radius: 10px;
